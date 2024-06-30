@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>OBS教程#0 使用OBS进行录屏</title>
+      <link href="/2024/06/30/OBS%E6%95%99%E7%A8%8B-0-%E4%BD%BF%E7%94%A8OBS%E8%BF%9B%E8%A1%8C%E5%BD%95%E5%B1%8F/"/>
+      <url>/2024/06/30/OBS%E6%95%99%E7%A8%8B-0-%E4%BD%BF%E7%94%A8OBS%E8%BF%9B%E8%A1%8C%E5%BD%95%E5%B1%8F/</url>
+      
+        <content type="html"><![CDATA[<h1 id="OBS录屏教程"><a href="#OBS录屏教程" class="headerlink" title="OBS录屏教程"></a>OBS录屏教程</h1><h2 id="下载并安装OBS"><a href="#下载并安装OBS" class="headerlink" title="下载并安装OBS"></a>下载并安装OBS</h2><blockquote><p><strong>Open Broadcaster Software</strong>（<strong>OBS</strong>）是由OBS Project开发的<a href="https://zh.wikipedia.org/wiki/自由及开放源代码软件">自由开源</a>跨平台流媒体和录影程序。该程序支持<a href="https://zh.wikipedia.org/wiki/Windows_10">Windows 10</a>（1809）、<a href="https://zh.wikipedia.org/wiki/MacOS">MacOS</a> 11以及<a href="https://zh.wikipedia.org/wiki/Ubuntu">Ubuntu</a> 18.04以上的操作系统版本。</p><p>OBS是一个用于录制和进行<a href="https://zh.wikipedia.org/wiki/網路直播">网络直播</a>的自由开源软件包。OBS使用C和C++语言编写，提供实时源和设备捕获、场景组成、编码、录制和广播。数据传输主要通过<a href="https://zh.wikipedia.org/wiki/实时消息协议">实时消息协议</a>（<a href="https://zh.wikipedia.org/wiki/RTMP">RTMP</a>）完成，可以发送到任何支持RTMP的软件，包括<a href="https://zh.wikipedia.org/wiki/YouTube">YouTube</a>、<a href="https://zh.wikipedia.org/wiki/Twitch_(網站">Twitch.tv</a>)、<a href="https://zh.wikipedia.org/wiki/Instagram">Instagram</a>和<a href="https://zh.wikipedia.org/wiki/Facebook">Facebook</a>等流媒体网站。<a href="https://zh.wikipedia.org/wiki/Open_Broadcaster_Software#cite_note-6">[6]</a></p></blockquote><p><a href="https://obsproject.com/">官网链接</a></p><p><a href="https://cdn-fastly.obsproject.com/downloads/OBS-Studio-30.1.2-Full-Installer-x64.exe">官方下载地址</a></p><p>下载完成后打开安装程序，出现如图所示的安装界面</p><p><img src="https://s2.loli.net/2024/06/30/Y5SJhPXzHtRgf1i.png" alt="image.png"></p><p>一路next即可，没有需要额外设置的项目</p><p><img src="https://s2.loli.net/2024/06/30/8h6ZF74rAyBKenQ.png" alt="image.png"></p><h2 id="启动与设置"><a href="#启动与设置" class="headerlink" title="启动与设置"></a>启动与设置</h2><p><img src="https://s2.loli.net/2024/06/30/IJlU2OjKWrAoNvf.png" alt="image.png"></p><p>启动后弹出如图所示的自动配置向导，选择第二个选项，一路下一步即可</p><h2 id="设置录像存储位置"><a href="#设置录像存储位置" class="headerlink" title="设置录像存储位置"></a>设置录像存储位置</h2><p><img src="https://s2.loli.net/2024/06/30/EN4graVoOPUxWGi.png" alt="image.png"></p><p>点击“文件”-&gt;“设置”</p><p><img src="https://s2.loli.net/2024/06/30/x1EiBakcKtS2Iby.png" alt="image.png"></p><p>在左侧边栏中找到“输出”，在“”录像“中即可设置录像存储路径（建议选择容量大的硬盘），录像质量，录像格式等</p><h2 id="开始桌面录制"><a href="#开始桌面录制" class="headerlink" title="开始桌面录制"></a>开始桌面录制</h2><p><img src="https://s2.loli.net/2024/06/30/yp18lg9CYWdAw46.png" alt="image.png"></p><p>点击”来源“框中红框圈出的”+“号</p><p><img src="https://s2.loli.net/2024/06/30/P7ZtCWXI9g24pw1.png" alt="image.png"></p><p>弹窗中点击”显示器采集”</p><p><img src="https://s2.loli.net/2024/06/30/ZLXoIVkUSjE8Bny.png" alt="image.png"></p><p>直接点确定就行</p><p><img src="https://s2.loli.net/2024/06/30/RLxAfbdNV2oMY4B.png" alt="image.png"></p><p>关掉“显示鼠标指针”，可以防止录制出的视频中屏幕内容被鼠标指针挡住（若只录制静态视频，无操作过程建议关闭）</p><p><img src="https://s2.loli.net/2024/06/30/MbD5Yr4wpziURLJ.png" alt="image.png"></p><p>点确定，可以看到屏幕画面已经出现在了中间</p><p>接下来设置音频</p><p><img src="https://s2.loli.net/2024/06/30/YI4GFeiMKH8Dj6U.png" alt="image.png"></p><p>在“混音器”部分，将“麦克风”下的滑条拖动至最左端，将“桌面音频”下的滑条拖动至最右端，即可防止录入麦克风的声音 <strong>(录屏时即使关闭系统音量，电脑播放的声音也可以正常被录入)</strong></p><p><img src="https://s2.loli.net/2024/06/30/1xTFhMic2Vf3oe9.png" alt="image.png"></p><p>点击“开始录制”即可开始录屏</p><p><img src="https://s2.loli.net/2024/06/30/3qJ2tWTN7ckaAUz.png" alt="image.png"></p><p>点击右侧的“⏸”以暂停/继续，点击“停止录制”即可停止录屏并保存</p><p><img src="https://s2.loli.net/2024/06/30/COonpafW1Rgl8Vm.png" alt="image.png"></p><p>停止录屏后即可在设置好的存储文件夹中找到录屏文件（文件名为开始录制的时间）</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> OBS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2024/06/24/hello-world/"/>
       <url>/2024/06/24/hello-world/</url>
